@@ -24,6 +24,9 @@ fmtok8s-email:
   externalSecretForZeebe: true
   env:
     EVENTS_ENABLED: true
+fmtok8s-speakers:
+  knativeDeploy: true
+  externalSecretForZeebe: true
 zeebe-cloud-events-router:
   knativeDeploy: true
   externalSecretForZeebe: true    
